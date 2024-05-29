@@ -1,0 +1,256 @@
+*{
+    color: white;
+}
+
+
+/* header */
+
+nav{
+    width: 100%;
+    background-color: rgba(0, 51, 255, 0.161);
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+nav ul{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+nav ul li:hover{
+    background-color: rgba(0, 69, 230, 0.22);
+    cursor: pointer;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.toggle{
+    width: 100%;
+    padding: 10px 20px;
+    text-align: right;
+    box-sizing: border-box;
+    font-size: 30px;
+    display: none;
+}
+
+@media (max-width:768px){
+    .toggle{
+        display: block;
+    }
+
+    nav ul{
+        width: 100%;
+        display: none;
+    }
+
+    nav ul li{
+        display: block;
+        text-align: center;
+    }
+
+    .active{
+        display: block;
+    }
+
+    #numheader{
+        text-align: center;
+        width: 99%;
+        position: inherit !important;
+    }
+
+    #logo{
+    width: 80%;    
+    }
+
+    #logodiv{
+        text-align: center;
+    }
+
+    #logoandnumheader{
+        display: block !important;
+    }
+}
+
+.bar {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(0, 153, 255);
+    margin: 6px 0;
+}
+
+.menu{
+        width: fit-content;
+        transition: all ease 0.3s;
+}
+
+.menu:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+#logoandnumheader{
+    height: fit-content;
+    display: flex;
+}
+
+#numheader{
+    position: absolute;
+    right: 0;
+    padding-right: 5%;
+}
+
+#selectedmenu{
+    color: rgb(0, 229, 255);
+}
+
+.zlandbt{
+    color: rgb(0, 191, 255);
+}
+
+header{
+    padding-top: 10px;
+}
+
+
+/* paralax */
+
+body{
+    background-image: url(photos/terry-vlisidis-De7Ut3NvoUU-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    padding-left: 5%;
+}
+
+
+/* article */
+
+#articletext{
+    text-align: center;
+    padding: 5%;
+}
+
+#articlep{
+    font-size: 19px;
+}
+
+.hdiv{
+    border: white solid 1px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    height: 180px;
+}
+
+.bluefonthdiv a{
+    color: aqua;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.bluefonthdiv a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.bighdiv{
+    margin-bottom: 40px;
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.bluefonthdiv{
+    width: 100%;
+    text-align: center;
+}
+
+.hdivheading{
+    font-weight: 550 !important;
+    font-size: 27px !important;
+    color: aqua;
+    transition: all ease 0.3s;
+}
+
+.hdivheading:hover{
+    color: rgb(255, 255, 255);
+}
+
+#cardarticle{
+    display: flex;
+}
+
+@media (max-width:768px){
+    .bluefonthdiv{
+        width: 100%;
+    }
+
+    .bighdiv{
+        width: 100%;
+    }
+
+    .hdiv{
+        width: 100%;
+    }
+
+    #cardarticle{
+        display: inherit !important;
+    }
+
+    .bighdiv{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+
+
+/* footer */
+
+footer{
+    background: rgba(0, 41, 106, 0.803);
+    width: 100%;
+    display: flex;
+    border-top: rgba(255, 255, 255, 0.805) 1px solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 50px;
+}
+
+footer #ul1{
+    list-style: none;
+    margin: 30px 0 20px 5%;
+    font-size: 17px;
+}
+
+footer #ul2{
+    list-style: none;
+    font-size: 17px;
+    margin: 30px 0 20px 0;
+}
+
+footer #ul1 li{
+    margin-bottom: 20px;
+}
+
+.fn{
+    margin-bottom: 5px;
+}
+
+#fm{
+    margin-bottom: 20px;
+}

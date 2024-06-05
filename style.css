@@ -32,7 +32,7 @@ nav ul li:hover{
 
 nav ul li a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .toggle{
@@ -40,13 +40,13 @@ nav ul li a{
     padding: 10px 20px;
     text-align: right;
     box-sizing: border-box;
-    font-size: 30px;
+    font-size: 20px;
     display: none;
 }
 
 @media (max-width:600px){
     #logoimg{
-        width: 90% !important;
+        width: 80% !important;
     }
 
     #numheader{
@@ -90,11 +90,15 @@ nav ul li a{
     #logoandnumheader{
         display: block !important;
     }
+
+    #logoimg{
+        width: 60%;
+    }
 }
 
 .bar {
-    width: 35px;
-    height: 5px;
+    width: 30px;
+    height: 4px;
     background-color: rgb(0, 153, 255);
     margin: 6px 0;
 }
@@ -106,7 +110,7 @@ nav ul li a{
 
 .menu:hover{
     cursor: pointer;
-    transform: scale(1.15);
+    transform: scale(1.1);
 }
 
 #logoandnumheader{
@@ -118,6 +122,7 @@ nav ul li a{
     position: absolute;
     right: 0;
     padding-right: 5%;
+    font-size: 15px;
 }
 
 #selectedmenu{
@@ -230,8 +235,6 @@ body{
 
 
 
-/* footer */
-
 #footer1{
     background: rgba(0, 41, 106, 0.803);
     width: 100%;
@@ -245,12 +248,12 @@ body{
 #footer1 #ul1{
     list-style: none;
     margin: 30px 0 20px 5%;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 #footer1 #ul2{
     list-style: none;
-    font-size: 17px;
+    font-size: 15px;
     margin: 30px 0 20px 0;
 }
 
@@ -308,15 +311,17 @@ body{
 #footer2 #ul3{
     list-style: none;
     margin: 30px 0 40px 0;
-    font-size: 17px;
+    font-size: 15px;
     text-align: center;
+    margin-right: 5%;
 }
 
 #footer2 #ul4{
     list-style: none;
-    font-size: 17px;
+    font-size: 15px;
     margin: 30px 0 20px 0;
     text-align: center;
+    margin-right: 5%;
 }
 
 #footer2 #ul3 li{
@@ -329,4 +334,8 @@ body{
 
 .fm{
     margin-bottom: 10px !important;
+}
+
+.email{
+    color: rgb(0, 191, 255);
 }
